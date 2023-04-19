@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'Large';
+    src: url(Qatar2022/Qatar2022Arabic-Bold.ttf);
+  }
+  
+  @font-face {
+    font-family: 'heavy';
+    src: url(Qatar2022/Qatar2022Arabic-Heavy.ttf);
+  }
+  
+  @font-face {
+    font-family: 'medium';
+    src: url(Qatar2022/Graphik\ Arabic\ Medium.otf);
+  }
+  
+img{
+    cursor: pointer;
+  }
+  .vol4qatar4,.vol4qatar2,.vol4qatar3,
+  .vol4qatar7,.vol4qatar5,
+  .vol4qatar6,.vol4qatar8,.vol4qatar9,
+  .vol4qatar10,.vol4qatar11,.volume4{
+      display: flex;
+      position: absolute;
+      width:0;
+      height:0;
+      top:500px;
+      left:20%;
+      font-size: 0px;
+      border-radius: 60px;
+      box-shadow: 5px 5px 5px #9a0f32a9;
+      background:linear-gradient(to right,#9a0f32d3,#9a0f32a9,#fff);
+      transition:translateX 0.5s;
+      transform: translateX(1001px);
+      color: rgba(255, 255, 255, 0);
+  }
+  .vol4qatar4 h1,.vol4qatar2 h1 ,
+  .vol4qatar3 h1,.vol4qatar7 h1,
+  .vol4qatar5 h1,.vol4qatar6 h1,
+  .vol4qatar8 h1,.vol4qatar9 h1,
+  .vol4qatar10 h1,.vol4qatar11 h1,
+  .volume4 h1{
+      color:#fff;
+      position: absolute;
+      left:15%;
+      display: inline-block;
+  }
+  .vol4qatar4 table,.vol4qatar2 table,
+  .vol4qatar3 table,.vol4qatar7 table,
+  .vol4qatar5 table,.vol4qatar6 table,
+  .vol4qatar8 table,.vol4qatar9 table,
+  .vol4qatar10 table,.vol4qatar11 table
+  ,.volume4 table{ 
+      color:#fff;
+      position: absolute;
+      left:20%;
+      top:20%;
+      
+  }
+
+  .click{
+      font-size:16px;
+      transform: translateX(0px);
+      transition: 0.5s;
+      width:40%;
+      height:55vh;
+      opacity: 1;
+  }
+  .violet4{
+    display: flex;
+      position: absolute;
+      width: 0;
+      height:0;
+      top:480px;
+      left:17%;
+      background:linear-gradient(to right,#9a0f328c,#9a0f3246, #fff);
+      color: #410514d3;
+      border-radius: 60px;
+      opacity: 0;
+      transition: 0.5s;
+      border:2px solid #410514d3 ;
+      box-shadow: 5px 10px 5px #9a0f32a9;
+    }
+    .violet4 table{
+      font-size: 1.1em;
+      position: absolute;
+      text-decoration: none;
+      align-items: center;
+      top: 10px;
+      left:40px;
+    }
+    .violet4 table thead th{
+      
+    border-bottom:2px solid rgba(255, 255, 255, 0.61);
+    }
+    td{
+      border-bottom:2px solid white; 
+    }
+    .vol4CLICK{
+      transition: 0.5s;
+      opacity: 1;
+      width: 60%;
+      height:100vh;
+    }
+    .inputqatar{
+ 
+  margin-top: 70px;
+  display: flex;
+  position: inherit;
+ left: 50px;
+  bottom:20px;
+}
+.inputqatar input{
+  justify-self: center;
+ padding: 10px;
+ height: 15px;
+ border-radius: 5px 0 0 5px;
+}
+table{
+  display: block;
+}
+
+
